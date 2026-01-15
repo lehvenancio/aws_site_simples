@@ -1,6 +1,6 @@
 # 📄 Deploy de Site Estático no EC2 com Nginx e HTTPS
 
-Este projeto demonstra como hospedar um site estático (como um currículo ou portfólio) usando **AWS EC2**, **Nginx**, **DuckDNS** e **HTTPS via Let’s Encrypt**, puxando os arquivos diretamente de um **repositório GitHub**.
+Este projeto é um site estático (como um currículo ou portfólio) usando **AWS EC2**, **Nginx**, **DuckDNS** e **HTTPS via Let’s Encrypt**, puxando os arquivos diretamente de um **repositório GitHub**.
 
 ---
 
@@ -180,3 +180,11 @@ Para Ubuntu, substitua dnf por apt.
 Certifique-se de que exista index.html na raiz /usr/share/nginx/html.
 
 DuckDNS é usado para domínios gratuitos; se usar outro domínio, ajuste server_name e DNS
+
+---
+
+## 🌐 Como acessar o site
+
+<a href="https://leandrovenancio.duckdns.org/" target="_blank">
+    Clique aqui para acessar o site
+</a>
